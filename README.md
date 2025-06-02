@@ -4,22 +4,19 @@
 <p align="center">
   <em>CausalRAG: Integrating Causal Graphs into Retrieval-Augmented Generation</em>
 </p>
-
-
 <p align="center">
-  <!-- Badges -->
   <a href="https://arxiv.org/abs/2503.19878">
-    <img alt="Paper" src="https://img.shields.io/badge/arXiv-2503.19878-b31b1b?logo=arxiv&logoColor=white">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2503.19878-b31b1b?logo=arxiv&logoColor=white">
   </a>
-&nbsp;
   <a href="LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg">
+    <img alt="MIT License" src="https://img.shields.io/badge/License-MIT-green.svg">
   </a>
-&nbsp;
   <a href="#">
     <img alt="Python 3.9" src="https://img.shields.io/badge/python-3.9-blue?logo=python&logoColor=white">
   </a>
 </p>
+
+
 
 ---
 
@@ -67,7 +64,9 @@ export OPENAI_API_KEY="sk-..."
 
 ## 📚 Citation 
 
-If you mention CausalRAG in your work, please cite:
+Thank you for your interest in CausalRAG.
+
+If you find our work helpful, please cite:
 
 ```bibtex
 @misc{wang2025causalragintegratingcausalgraphs,
@@ -87,7 +86,8 @@ If you mention CausalRAG in your work, please cite:
 
 ## 🤝 Contributing 
 
-Pull requests are welcome! Please open an issue to discuss major changes.  
+Pull requests are welcome! Please open an issue to discuss major changes.
+
 Make sure to run `make test && make style` before submitting.
 
 1. **Fork** → 2. **Create feature branch** → 3. **Commit** → 4. **Open PR**
