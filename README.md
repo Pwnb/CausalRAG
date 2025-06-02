@@ -5,10 +5,11 @@
   <em>CausalRAG: Integrating Causal Graphs into Retrieval-Augmented Generation</em>
 </p>
 <p align="center">
-  <a href="https://arxiv.org/abs/2503.19878"><img alt="arXiv 2503.19878" src="https://img.shields.io/badge/arXiv-2503.19878-b31b1b?logo=arxiv&logoColor=white"></a><!--
-  --><a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-green.svg"></a><!--
+  <a href="https://arxiv.org/abs/2503.19878"><img alt="arXiv 2503.19878" src="https://img.shields.io/badge/arXiv-2503.19878-b31b1b?logo=arxiv&logoColor=white"></a>  <!--
+  --><a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-green.svg"></a>  <!--
   --><a href="#"><img alt="Python 3.9" src="https://img.shields.io/badge/python-3.9-blue?logo=python&logoColor=white"></a>
 </p>
+
 
 ---
 
