@@ -8,6 +8,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="python">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="license">
+  <a href="https://arxiv.org/abs/2503.19878"><img src="https://img.shields.io/badge/arXiv-2503.19878-607d8b" alt="arXiv"></a>
+  <a href="https://aclanthology.org/2025.findings-acl.1165/"><img src="https://img.shields.io/badge/ACL%20Anthology-2025.findings--acl.1165-607d8b" alt="ACL Anthology"></a>
 </p>
 
 ## Why CausalRAG
@@ -105,6 +107,9 @@ docs/
 
 ## Citation
 
+📄 Paper: [arXiv:2503.19878](https://arxiv.org/abs/2503.19878) ·
+[ACL Anthology](https://aclanthology.org/2025.findings-acl.1165/)
+
 ```bibtex
 @inproceedings{wang2025causalrag,
   title     = {CausalRAG: Integrating Causal Graphs into Retrieval-Augmented Generation},
@@ -112,14 +117,22 @@ docs/
   booktitle = {Findings of the Association for Computational Linguistics: ACL 2025},
   pages     = {22680--22693},
   year      = {2025},
-  url       = {https://github.com/Pwnb/CausalRAG}
+  url       = {https://aclanthology.org/2025.findings-acl.1165/}
 }
 ```
 
-See also the successor, **CausalRAG2**
-([github.com/Pwnb/CausalRAG2](https://github.com/Pwnb/CausalRAG2), ICML 2026),
-which extends this with a community/topic hierarchy and explicit **causal gates**
-across modules, plus the **HolisQA benchmark**.
+See also the successor, **CausalRAG2** (ICML 2026):
+
+```bibtex
+@inproceedings{wang2026causalrag2,
+  title     = {CausalRAG2: Hierarchical Causal Knowledge Graph Design for RAG},
+  author    = {Wang, Nengbo and Liang, Tuo and Singh, Vikash and Song, Chaoda and
+               Yang, Van and Yin, Yu and Ma, Jing and Singh, Jagdip and Chaudhary, Vipin},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning (ICML)},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2602.05143}
+}
+```
 
 ## License
 
