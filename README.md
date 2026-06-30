@@ -121,7 +121,8 @@ docs/
 }
 ```
 
-See also the successor, **CausalRAG2** (ICML 2026):
+See also the successor, **CausalRAG2**
+([github.com/Pwnb/CausalRAG2](https://github.com/Pwnb/CausalRAG2), ICML 2026):
 
 ```bibtex
 @inproceedings{wang2026causalrag2,
