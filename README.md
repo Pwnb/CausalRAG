@@ -10,6 +10,8 @@
   <img src="https://img.shields.io/badge/license-MIT-green" alt="license">
 </p>
 
+## Why CausalRAG
+
 Traditional RAG retrieves context by **semantic similarity, not causal
 relevance**, so it pulls in superficially related but logically irrelevant
 passages and can produce shallow or unfaithful answers. CausalRAG addresses this:
@@ -21,7 +23,7 @@ passages and can produce shallow or unfaithful answers. CausalRAG addresses this
 - ⚖️ **Balances recall and precision.** Causal grounding keeps relevant context
   while filtering causally-irrelevant noise.
 
-### The recall and precision trade-off
+#### The regular RAG and Graph-based RAGs trade-off
 
 Regular RAG retrieves whatever is semantically closest, which favors recall but
 lets in noise and breaks the logical thread between passages. Graph-based RAG
@@ -116,8 +118,8 @@ docs/
 
 See also the successor, **CausalRAG2**
 ([github.com/Pwnb/CausalRAG2](https://github.com/Pwnb/CausalRAG2), ICML 2026),
-which extends this with a community/topic hierarchy and explicit causal gates
-across modules, plus the HolisQA benchmark.
+which extends this with a community/topic hierarchy and explicit **causal gates**
+across modules, plus the **HolisQA benchmark**.
 
 ## License
 
