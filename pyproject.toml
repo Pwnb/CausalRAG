@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "causalrag"
+version = "1.0.0"
+description = "CausalRAG: integrating causal graphs into retrieval-augmented generation (Findings of ACL 2025)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.24",
+    "openai>=1.40",
+    "python-dotenv>=1.0",
+    "langchain-core>=0.2",
+    "langchain-openai>=0.1",
+    "langchain-experimental>=0.0.60",
+    "pypdf>=4.0",
+    "sentence-transformers>=2.2",
+    "faiss-cpu>=1.7",
+]
+
+[tool.setuptools]
+packages = ["causalrag"]

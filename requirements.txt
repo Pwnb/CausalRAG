@@ -1,0 +1,14 @@
+# Core runtime
+numpy>=1.24
+openai>=1.40
+python-dotenv>=1.0
+
+# Graph construction (paper Section 4.1: LangChain LLM graph transformer)
+langchain-core>=0.2
+langchain-openai>=0.1
+langchain-experimental>=0.0.60
+pypdf>=4.0                  # PDF ingestion for build_graph
+
+# Retrieval (paper Appendix C: all-MiniLM-L6-v2 embeddings + FAISS index)
+sentence-transformers>=2.2 # 384-dim dense node/query embeddings
+faiss-cpu>=1.7             # IndexFlatL2 nearest-neighbour search
